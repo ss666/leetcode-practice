@@ -24,4 +24,4 @@ class Solution:
         reversed_head = self.reverseList(head.next)
         head.next.next = head
         head.next = None
-        return reversed_head
+        return reversed_head # return the head of the reversed list
